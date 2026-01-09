@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 16px;
+
+}
+
+nav ul{
+    display: flex;
+    gap: 32px;
+
+}
+
+nav ul li{
+    list-style: none;
+    font-size: 16px;
+
+    
+}
+
+.hero{
+    background-image: url(./B13-A01-Knowledge-Vault/assets/hero-bg.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+   
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+    padding-top: 110px;
+
+}
+
+.hero-white{
+    color: white;
+
+}
+.hero-green{
+    color: #30B868;
+}
+.hero-para{
+    color:white;
+    max-width: 700px;
+    text-align: center;
+    font-size:18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.cards-content{
+    text-align: center;
+
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 24px;
+}
+
+.card{
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    background: rgba(255, 255, 255, 1);
+    height: 300px;
+    width: 322px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: auto;
+    text-align: center;
+}
+.card img{
+     background: rgba(249, 85, 85, 1);
+     padding: 10px;
+     border-radius: 100px;
+}
+
+.card h3{
+    font-weight: 600px;
+    font-size: 24px;
+    line-height: 29px;
+    padding: 12px 24px;
+
+
+
+}
+
+.card p{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 20px;
+    margin: 0 8px;
+    max-width: 274px;
+    text-align: center;
+  
+
+
+}
+.knowledge-container{
+    display: flex;
+    margin: 120px;
+    gap: 60px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.knowldege-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    text-align: left;
+    
+}
+
+.knowldege-content h4{
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 20px;
+    
+    color: #469165;
+    
+
+}
+
+.knowldege-content h1{
+    font-size: 48px;
+    font-weight: 700px;
+    line-height: 58px;
+
+}
+.knowldege-content .knowledge-para{
+    max-width: 700px;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 20px;
+    color: #627382;
+
+}
+
+.knowldege-content .ticks{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    
+}
+
+.challenge{
+    height: 504px;
+
+
+}
+
+.challenge-content{
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #F7F6F2;
+    margin: 0px 120px 120px 120px;
+    padding: 80px 40px;
+
+}
+
+.challenge-content p{
+    color: #627382;
+    text-align: center;
+}
+.end{
+    height: 348px;
+    background-color: #001931;
+}
+.footer-container{
+    display: flex;
+    justify-content:space-between;
+    padding: 120px 120px 30px 120px;
+    
+}
+.footer-container h4{
+    color: #F7F6F2;
+}
+.socials i {
+  color: #ffffff;
+  font-size: 22px;
+  margin-right: 16px;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+hr{
+    
+    text-align:center;
+    margin: 50px 100px;
+    border: none;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.last-line{
+    color: #F7F6F2;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+   
+
+
+/* Buttons */
+.btn{
+    background-color: #469165;
+    padding: 12px 16px;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
+
+}
+
+.btn-white{
+    border-radius: 1000px;
+    background-color: white;
+    color:#469165;
+
+}
+.btn-transparent{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 11px 16px;
+}
